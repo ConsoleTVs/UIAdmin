@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UI Admin - Clean and responsive administration panel</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Clean and responsive administration panel">
+        <meta name="keywords" content="Admin,Panel,HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Erik Campobadal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="js/uikit.min.js" ></script>
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    </head>
+    <body>
+        <div uk-sticky="media: 960" class="uk-navbar-container tm-navbar-container uk-sticky uk-active" style="position: fixed; top: 0px; width: 1903px;">
+            <div class="uk-container uk-container-expand">
+                <nav uk-navbar="mode: click; offset: -17;">
+                    <div class="uk-navbar-left">
+                        <a id="sidebar_toggle" class="uk-navbar-toggle" uk-navbar-toggle-icon href="#"></a>
+                        <a href="#" class="uk-navbar-item uk-logo">
+                            UI Admin
+                        </a>
+                    </div>
+                    <div class="uk-navbar-right uk-light">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active">
+                                <a href="#">Èrik Campobadal &nbsp;<span class="ion-ios-arrow-down"></span></a>
+                                <div class="uk-navbar-dropdown">
+                                   <ul class="uk-nav uk-navbar-dropdown-nav">
+                                       <li class="uk-nav-header">Options</li>
+                                       <li><a href="#">Edit Profile</a></li>
+                                       <li class="uk-nav-header">Actions</li>
+                                       <li><a href="#">Lock</a></li>
+                                       <li><a href="#">Logout</a></li>
+                                   </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div id="sidebar" class="tm-sidebar-left uk-background">
+            <center>
+                <div class="user">
+                    <img id="avatar" width="100" class="uk-border-circle" src="images/avatar.jpg" />
+                    <div class="uk-margin-top"></div>
+                    <div id="name">Èrik Campobadal</div>
+                    <div id="email">ConsoleTVs@gmail.com</div>
+                    <span id="status" data-enabled="true" data-online-text="Online" data-away-text="Away" data-interval="10000" class="uk-margin-top uk-label uk-label-success"></span>
+                </div>
+                <br />
+            </center>
+            <ul class="uk-nav uk-nav-default">
+
+                <li class="uk-nav-header">
+                    UI Elements
+                </li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="components.html">Components</a></li>
+                <li><a href="tables.html">Tables</a></li>
+
+                <li class="uk-nav-header">
+                    Pages
+                </li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="404.html">404</a></li>
+            </ul>
+        </div>
+        <div class="content-padder content-background">
+            <div class="uk-section-small uk-section-default header">
+                <div class="uk-container uk-container-large">
+                    <h1><span class="ion-speedometer"></span> Dashboard</h1>
+                    <p>
+                        Welcome back, Èrik Campobadal
+                    </p>
+                    <ul class="uk-breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span href="">Dashboard</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-section-small">
+                <div class="uk-container uk-container-large">
+                    <div uk-grid class="uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-4@xl">
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <span class="statistics-text">New Registrations</span><br />
+                                <span class="statistics-number">
+                                    14.164
+                                    <span class="uk-label uk-label-success">
+                                        8% <span class="ion-arrow-up-c"></span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <span class="statistics-text">Website Traffic</span><br />
+                                <span class="statistics-number">
+                                    123.238
+                                    <span class="uk-label uk-label-danger">
+                                        13% <span class="ion-arrow-down-c"></span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <span class="statistics-text">Total Invoices</span><br />
+                                <span class="statistics-number">
+                                    2.316
+                                    <span class="uk-label uk-label-success">
+                                        37% <span class="ion-arrow-up-c"></span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <span class="statistics-text">Total Income</span><br />
+                                <span class="statistics-number">
+                                    6.384€
+                                    <span class="uk-label uk-label-success">
+                                        26% <span class="ion-arrow-up-c"></span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div uk-grid class="uk-child-width-1-1@s uk-child-width-1-2@l">
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-header">
+                                    Website Traffic
+                                </div>
+                                <div class="uk-card-body">
+                                    <canvas id="chart1"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-header">
+                                    Website Traffic
+                                </div>
+                                <div class="uk-card-body">
+                                    <canvas id="chart2"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js" integrity="sha256-GcknncGKzlKm69d+sp+k3A2NyQE+jnu43aBl6rrDN2I=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js" integrity="sha256-rqEXy4JTnKZom8mLVQpvni3QHbynfjPmPxQVsPZgmJY=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        <script src="js/status.js"></script>
+        <script src="js/charts.js"></script>
+    </body>
+</html>
