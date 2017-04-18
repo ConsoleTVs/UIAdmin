@@ -6,6 +6,12 @@ UI Kit 3 Administration Panel
 
 This admin panel template uses UI Kit 3 Beta 12 and it's build to be responsive and clean, you can find some screenshots below.
 
+## Demo
+
+Check an online demo from the latest commit here:
+
+https://gitcdn.xyz/repo/ConsoleTVs/UIAdmin/master/index.html
+
 ## Instructions
 
 Simple download or clone the repository to use the template.
