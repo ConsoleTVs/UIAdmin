@@ -14,7 +14,7 @@ https://gitcdn.xyz/repo/ConsoleTVs/UIAdmin/master/index.html
 
 ## Instructions
 
-Simple download or clone the repository to use the template.
+Simply download or clone the repository to use the template.
 
 ```
 git clone https://github.com/ConsoleTVs/UIAdmin.git
