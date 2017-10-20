@@ -105,3 +105,14 @@ html, body{
         margin-left: 300px;
     }
 }
+
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-track-piece { background-color: #f0f0f0; 
+/*this can also be transparent*/}
+::-webkit-scrollbar-thumb:vertical {
+    width: 1px;
+    background-color: #1e87f0;
+    border-top: 4px solid #f0f0f0;
+    border-right: 3px solid #f0f0f0;
+    border-bottom: 4px solid #f0f0f0;
+    border-left: 3px solid #f0f0f0;
