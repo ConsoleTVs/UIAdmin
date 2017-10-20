@@ -116,3 +116,12 @@ html, body{
     border-right: 3px solid #f0f0f0;
     border-bottom: 4px solid #f0f0f0;
     border-left: 3px solid #f0f0f0;
+}
+::selection {
+  background-color: #d1eefe;
+  color: #1e87f0;
+}
+::moz-selection {
+ background-color: #d1eefe;
+ color: #1e87f0;
+}
