@@ -4,7 +4,7 @@ UI Kit 3 Administration Panel
 
 ## Information
 
-This admin panel template uses UI Kit 3 Beta 12 and it's build to be responsive and clean, you can find some screenshots below.
+This admin panel template uses UI Kit 3 Beta 31 and it's build to be responsive and clean, you can find some screenshots below.
 
 ## Demo
 
